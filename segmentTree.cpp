@@ -11,6 +11,13 @@ finds max in a range, [L, R)
 // }
 // void operator delete(void*) {}
 
+
+// Classical problems using segment tree
+// Find the number of unique numbers in a given range (actually using mergesort tree)
+// Flip the binary numbers in a given range (maintain a variable LAZY_FLIP).
+// max subarray sum (storing prefix and suffix).
+// List removals  (CSES).
+
 const int inf = 1e9;
 struct Node {
 	Node *l = 0, *r = 0;
