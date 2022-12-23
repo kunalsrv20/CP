@@ -3,13 +3,13 @@ Usage: Node* tr = new Node(v, 0, sz(v));
 finds max in a range, [L, R)
 */
 // Either globally or in a single class:
-static char buf[450 << 20];
-void* operator new(size_t s) {
-	static size_t i = sizeof buf;
-	assert(s < i);
-	return (void*)&buf[i -= s];
-}
-void operator delete(void*) {}
+// static char buf[450 << 20];
+// void* operator new(size_t s) {
+// 	static size_t i = sizeof buf;
+// 	assert(s < i);
+// 	return (void*)&buf[i -= s];
+// }
+// void operator delete(void*) {}
 
 const int inf = 1e9;
 struct Node {
