@@ -14,6 +14,7 @@ finds max in a range, [L, R)
 
 //---- Classical problems using segment tree ----
 // Find the number of unique numbers in a given range (actually using mergesort tree)
+// Find the maximum and the number of occurences of it.
 // Flip the binary numbers in a given range (maintain a variable LAZY_FLIP).
 // max subarray sum (storing prefix and suffix).
 // List removals  (CSES).
