@@ -2,6 +2,8 @@
 Usage: Node* tr = new Node(v, 0, sz(v));
 finds max in a range, [L, R)
 */
+
+
 // Either globally or in a single class:
 // static char buf[450 << 20];
 // void* operator new(size_t s) {
@@ -13,11 +15,13 @@ finds max in a range, [L, R)
 
 
 //---- Classical problems using segment tree ----
-// Find the number of unique numbers in a given range (actually using mergesort tree)
-// Find the maximum and the number of occurences of it.
+// Find the count of unique numbers in a given range (actually using mergesort tree(which is indeed a segment tree))
+// Find the smallest number greater or equal to a specified number. No modification queries (storing list at every node and binary searching)
+// Find the smallest number greater or equal to a specified number. With modification queries (storing multiset at every node and binary searching)
+// Find the maximum and the number of occurences of it. (storing a pair <max, cnt_of_max>)
 // Flip the binary numbers in a given range (maintain a variable LAZY_FLIP).
-// max subarray sum (storing prefix and suffix).
-// List removals  (CSES).
+// Max subarray sum (storing prefix and suffix).
+// List removals (CSES).
 // Walking on a segment tree range: [1, i]. (logN)^2 -> (logN) optimization
 // Non commutative combiner functions (which are associative)
 // 2-D segment tree
