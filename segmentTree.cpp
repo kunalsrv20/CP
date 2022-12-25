@@ -12,13 +12,15 @@ finds max in a range, [L, R)
 // void operator delete(void*) {}
 
 
-// Classical problems using segment tree
+//---- Classical problems using segment tree ----
 // Find the number of unique numbers in a given range (actually using mergesort tree)
 // Flip the binary numbers in a given range (maintain a variable LAZY_FLIP).
 // max subarray sum (storing prefix and suffix).
 // List removals  (CSES).
-// Walking on a segment tree range: [1, i]. (logN)^2 -> (logN) optimizations
+// Walking on a segment tree range: [1, i]. (logN)^2 -> (logN) optimization
 // Non commutative combiner functions (which are associative)
+// 2-D segment tree
+
 
 const int inf = 1e9;
 struct Node {
