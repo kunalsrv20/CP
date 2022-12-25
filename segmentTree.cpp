@@ -17,6 +17,8 @@ finds max in a range, [L, R)
 // Flip the binary numbers in a given range (maintain a variable LAZY_FLIP).
 // max subarray sum (storing prefix and suffix).
 // List removals  (CSES).
+// Walking on a segment tree range: [1, i]. (logN)^2 -> (logN) optimizations
+// Non commutative combiner functions (which are associative)
 
 const int inf = 1e9;
 struct Node {
